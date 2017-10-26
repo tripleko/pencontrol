@@ -60,12 +60,6 @@ function render() {
             streakText.text = "Streak: " + streakCount;
         }
     }
-    else if(!game.input.activePointer.leftButton.isDown) {
-        pCount = 0;
-        startSquare.x = path[pCount].x;
-        startSquare.y = path[pCount].y;
-        isDrawing = false;
-    }
 }
 
 function isMouseOverStart() {
